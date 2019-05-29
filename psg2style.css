@@ -1,0 +1,86 @@
+body{
+padding-bottom: 60px;
+font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+	box-shadow: -1px -1px 3px rgba(0,0,0,0.2);
+}
+p.description span {
+	display:none;
+}
+.blog-pager {
+	visibility:hidden;
+}
+.logo {
+width: 30%;
+max-width: 250px;
+}
+.title {
+text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+}
+.lead {
+margin:auto;
+min-width: 200px;
+max-width: 400px;
+text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+background: rgba(37, 37, 37, 0.5)
+}
+.card-header a {
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.judul {
+	opacity:0;
+	transform:translate(0px,-20px);
+	transition:.3s;
+}
+.judultambahan {
+	opacity:1;
+	transform:translate(0px,0px);
+}
+hr{
+min-width: 20%;
+max-width: 450px;
+border-top: 2px solid #999;
+}
+section {
+min-height: 450px;
+}
+div.card {
+max-width: 15rem;
+margin: 8px;
+padding: 0px;
+}
+.card-img-top {
+	opacity : .5;
+}
+.card-header {
+	height: 290px;
+	overflow: hidden;
+}
+.card-text{
+    height: 46px;
+    overflow: hidden;
+}
+footer {
+bottom: 0;
+min-height: 70px;
+width: 100%;
+}
+#psgCarousel {
+height: 328 !important;
+}
+.carousel-inner {
+min-height: 312px;;
+position: relative;
+}
+.carousel-caption {
+top:-5px;
+opacity: .20;
+animation: logos .7s forwards ;
+}
+@keyframes logos {
+0% {opacity: 0;top:-10px;}
+100% {opacity:100;top:-0px;}
+}
