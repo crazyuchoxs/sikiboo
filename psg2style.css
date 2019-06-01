@@ -1,8 +1,8 @@
 ::root {
 	--color-dark: #04193a;
-	--color-normal: #0858d8;
-	--color-light: #6fa0ed;
-	--color-soft-light: #c4dbff;
+	--color-normal: #004ac2;
+	--color-light: #4d79be;
+	--color-soft-light: #a2b1c9;
 }
 
 body {
@@ -59,7 +59,7 @@ p.description span {
 hr {
 	min-width: 20%;
 	max-width: 450px;
-	border-top: 2px solid #999;
+	border-top: 2px solid var(--color-light);
 }
 
 section {
