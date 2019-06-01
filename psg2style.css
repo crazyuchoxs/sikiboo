@@ -49,6 +49,7 @@ p.description span {
 	opacity: 0;
 	transform: translate(0px, -20px);
 	transition: .3s;
+	color: var(--color-dark);
 }
 
 .judultambahan {
