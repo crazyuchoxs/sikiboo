@@ -15,11 +15,11 @@ body {
 }
 
 section.aboutsg a {
-	color: var(--color-light);
+	color: var(--color-normal);
 }
 
 section.aboutsg a:hover {
-	color: var(--color-normal);
+	text-shadow: 0px 0px 1px var(--color-dark);
 	text-decoration: none;
 }
 
