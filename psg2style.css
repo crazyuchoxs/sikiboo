@@ -18,6 +18,10 @@ body {
 	background-color: var(--color-soft-light) !important;
 }
 
+.bg-dark {
+	background-color: var(--color-dark) !important;
+}
+
 .navbar {
 	box-shadow: -1px -1px 3px rgba(0, 0, 0, 0.2);
 }
