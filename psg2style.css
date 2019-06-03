@@ -92,7 +92,7 @@ p.description span {
 	transition: .3s;
 	color: var(--color-dark) !important;
 	text-align: center;
-	text-transform: capitalize;
+	text-transform: uppercase;
 }
 
 .judultambahan {
