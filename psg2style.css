@@ -3,11 +3,25 @@
 	--color-normal: #0047b9;
 	--color-light: #6ca4ff;
 	--color-soft-light: #ddeeff;
+	--color-idark: #492d00;
+	--color-inormal: #b97200;
+	--color-ilight: #ffc76c;
+	--color-isoft-light: #ffeedd;
 }
 
 body {
 	padding-bottom: 60px;
 	font-family: 'Montserrat', sans-serif;
+}
+
+footer a {
+	color: var(--color-ilight);
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: var(--color-inormal);
+	text-decoration: none;
 }
 
 .jumbotron {
