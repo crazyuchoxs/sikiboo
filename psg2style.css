@@ -14,6 +14,15 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+section.aboutsg a {
+	color: var(--color-light);
+}
+
+section.aboutsg a:hover {
+	color: var(--color-normal);
+	text-decoration: none;
+}
+
 footer a {
 	color: var(--color-ilight);
 	text-decoration: none;
