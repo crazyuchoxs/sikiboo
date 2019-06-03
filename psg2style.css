@@ -1,13 +1,21 @@
 :root {
-	--color-dark: #04193a;
-	--color-normal: #004ac2;
-	--color-light: #4d79be;
-	--color-soft-light: #a2b1c9;
+	--color-dark: #001c49;
+	--color-normal: #0047b9;
+	--color-light: #6ca4ff;
+	--color-soft-light: #ddeeff;
 }
 
 body {
 	padding-bottom: 60px;
 	font-family: 'Montserrat', sans-serif;
+}
+
+.jumbotron {
+	background-color: var(--color-soft-light) !important;
+}
+
+.bg-grey {
+	background-color: var(--color-soft-light) !important;
 }
 
 .navbar {
