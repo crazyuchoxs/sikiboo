@@ -14,8 +14,14 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+section.artikel h1,
+section.aboutsg h1 {
+	color: var(--color-dark);
+}
+
 section.aboutsg a {
 	color: var(--color-normal);
+	transition: .3s;
 }
 
 section.aboutsg a:hover {
@@ -98,6 +104,13 @@ hr {
 	border-top: 2px solid var(--color-light);
 }
 
+
+div.card:hover {
+	box-shadow: 0px 0px 10px var(--color-normal);
+	transform: scale(1.03, 1.03);
+	z-index: 3000;
+}
+
 section {
 	min-height: 450px;
 }
@@ -106,6 +119,7 @@ div.card {
 	max-width: 15rem;
 	margin: 8px;
 	padding: 0px;
+	transition: .3s;
 }
 
 .card-img-top {
