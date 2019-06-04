@@ -115,7 +115,7 @@ p.description span {
 
 hr {
 	min-width: 20%;
-	max-width: 350px;
+	max-width: 150px;
 	border-top: 2px solid var(--color-light);
 }
 
