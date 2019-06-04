@@ -115,7 +115,7 @@ p.description span {
 
 .post-tambahan {
 	transform: translate(0px, 0px) !important;
-	opacity: 1;
+	opacity: 1 !important;
 }
 
 hr {
