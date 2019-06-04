@@ -108,7 +108,7 @@ hr {
 
 
 div.card:hover {
-	box-shadow: 0px 0px 10px var(--color-normal);
+	box-shadow: 0px 0px 10px var(--color-dark);
 	transform: scale(1.03, 1.03);
 	z-index: 3000;
 }
