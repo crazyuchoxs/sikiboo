@@ -1,12 +1,12 @@
 :root {
-	--color-dark: #001c49;
-	--color-normal: #0047b9;
-	--color-light: #6ca4ff;
-	--color-soft-light: #ddeeff;
-	--color-idark: #492d00;
-	--color-inormal: #b97200;
-	--color-ilight: #ffc76c;
-	--color-isoft-light: #ffeedd;
+	--color-dark: #130f40;
+	--color-normal: #4834d4;
+	--color-light: #686de0;
+	--color-soft-light: #dff9fb;
+	--color-idark: #402f0f;
+	--color-inormal: #f0932b;
+	--color-ilight: #ffbe76;
+	--color-isoft-light: #f6e58d;
 }
 
 body {
