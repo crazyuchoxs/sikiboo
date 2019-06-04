@@ -17,6 +17,7 @@ body {
 section.aboutpsg {
 	background: url('https://1.bp.blogspot.com/-FnR8QHlLp7I/XPaSQhgyveI/AAAAAAAAHEM/NKDLsPVe6MsP0r7tW4zHadDA_o449AvSACLcBGAs/s1600/55910168_2074010139320099_3673840915337707520_o.jpg') no-repeat fixed;
 	background-size: cover;
+	background-position-y: -140px;
 	justify-content: center;
 }
 
