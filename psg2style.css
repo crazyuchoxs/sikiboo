@@ -158,7 +158,7 @@ section.artikel h1 {
 }
 
 .artikel-tambahan {
-	opacity: 1;
+	opacity: 1 !important;
 	transform: scale(1, 1) !important;
 }
 
