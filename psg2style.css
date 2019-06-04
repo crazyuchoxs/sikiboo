@@ -45,6 +45,7 @@ footer a:hover {
 .aboutpsg h1 {
 	transform: translate(0px, -55px);
 	opacity: 0;
+	text-transform: uppercase;
 }
 
 .bg-dark {
@@ -96,8 +97,8 @@ p.description span {
 }
 
 .judultambahan {
-	opacity: 1;
-	transform: translate(0px, 0px);
+	opacity: 1 !important;
+	transform: translate(0px, 0px) !important;
 }
 
 .post-body {
