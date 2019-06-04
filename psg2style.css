@@ -49,6 +49,11 @@ footer a:hover {
 	transition: .3s;
 }
 
+.aboutpsg p {
+	transform: translate(-184px, 100px);
+	opacity: 0;
+}
+
 .bg-dark {
 	background-color: var(--color-dark) !important;
 }

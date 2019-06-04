@@ -19,4 +19,10 @@ $(window).scroll(function () {
     } else {
         $('.aboutpsg h1').removeClass('judultambahan');
     }
+
+    if (wwscroll > 1075) {
+        $('.aboutpsg p').addClass('judultambahan');
+    } else {
+        $('.aboutpsg p').removeClass('post-tambahan');
+    }
 });
