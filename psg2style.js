@@ -18,7 +18,7 @@ $(window).scroll(function () {
         $('.aboutpsg h1').removeClass('judultambahan');
     }
 
-    if (wwscroll > 1080) {
+    if (wwscroll > 1090) {
         $('.aboutpsg p').addClass('post-tambahan');
     } else {
         $('.aboutpsg p').removeClass('post-tambahan');
