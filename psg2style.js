@@ -1,7 +1,5 @@
 $(window).scroll(function () {
     var wwscroll = $(this).scrollTop();
-    console.log(wwscroll);
-
     if (wwscroll > 100) {
         $('.judul').addClass('judultambahan');
     } else {
@@ -21,7 +19,7 @@ $(window).scroll(function () {
     }
 
     if (wwscroll > 1075) {
-        $('.aboutpsg p').addClass('judultambahan');
+        $('.aboutpsg p').addClass('post-tambahan');
     } else {
         $('.aboutpsg p').removeClass('post-tambahan');
     }
