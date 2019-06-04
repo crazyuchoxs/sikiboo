@@ -46,6 +46,7 @@ footer a:hover {
 	transform: translate(0px, -55px);
 	opacity: 0;
 	text-transform: uppercase;
+	transition: .3s;
 }
 
 .bg-dark {
