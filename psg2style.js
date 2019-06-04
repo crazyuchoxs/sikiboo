@@ -6,7 +6,14 @@ $(window).scroll(function () {
     } else {
         $('.judul').removeClass('judultambahan');
     }
-    // if (wwscroll > 150) {
-
-    // }
-})
+    if (wwscroll > 155) {
+        $('post-body').addClass('post-tambahan');
+    } else {
+        $('post-body').removeClass('post-tambahan');
+    }
+    if (wwscroll > 1070) {
+        $('.aboutpsg h1').addClass('judultambahan');
+    } else {
+        $('.aboutpsg h1').removeClass('judultambahan');
+    }
+});

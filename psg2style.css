@@ -14,11 +14,6 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
-section.artikel h1,
-section.aboutsg h1 {
-	color: var(--color-dark);
-}
-
 section.aboutsg a {
 	color: var(--color-normal);
 	transition: .3s;
@@ -45,6 +40,11 @@ footer a:hover {
 
 .bg-grey {
 	background-color: var(--color-soft-light) !important;
+}
+
+.aboutpsg h1 {
+	transform: translate(0px, -55px);
+	opacity: 0;
 }
 
 .bg-dark {
@@ -100,21 +100,37 @@ p.description span {
 	transform: translate(0px, 0px);
 }
 
+.post-body {
+	transform: translate(0px, 100px) !important;
+	opacity: 0;
+	transition: .3s;
+}
+
+.post-tambahan {
+	transform: translate(0px, 0px) !important;
+	opacity: 1;
+}
+
 hr {
 	min-width: 20%;
-	max-width: 450px;
+	max-width: 350px;
 	border-top: 2px solid var(--color-light);
 }
 
 
 div.card:hover {
-	box-shadow: 0px 0px 10px var(--color-dark);
+	box-shadow: 0px 0px 10px var(--color-light);
 	transform: scale(1.03, 1.03);
 	z-index: 3000;
 }
 
 section {
 	min-height: 450px;
+}
+
+section h1 {
+	text-transform: uppercase;
+	color: var(--color-dark);
 }
 
 div.card {
