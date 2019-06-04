@@ -136,6 +136,15 @@ section {
 	min-height: 450px;
 }
 
+section.artikel h1 {
+	transform: scale(0, 0);
+	transition: .3s;
+}
+
+.artikel-tambahan {
+	transform: scale(1, 1) !important;
+}
+
 section h1 {
 	text-transform: uppercase;
 	color: var(--color-dark);
