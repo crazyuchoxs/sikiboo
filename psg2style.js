@@ -19,15 +19,21 @@ $(window).scroll(function () {
         $('.aboutpsg h1').removeClass('judultambahan');
     }
 
-    if (wwscroll > 1100) {
+    if (wwscroll > 1224) {
         $('.aboutpsg p').addClass('post-tambahan');
     } else {
         $('.aboutpsg p').removeClass('post-tambahan');
     }
 
-    if (wwscroll > 1500) {
+    if (wwscroll > 1614) {
         $('.artikel h1').addClass('artikel-tambahan');
     } else {
         $('.artikel h1').removeClass('artikel-tambahan');
+    }
+
+    if (wwscroll > 1845) {
+        $('.artikel .popular-posts').addClass('artikel-tambahan');
+    } else {
+        $('.artikel .popular-posts').removeClass('artikel-tambahan');
     }
 });

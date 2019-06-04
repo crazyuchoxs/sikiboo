@@ -14,6 +14,20 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+section.aboutpsg {
+	background: url('https://1.bp.blogspot.com/-FnR8QHlLp7I/XPaSQhgyveI/AAAAAAAAHEM/NKDLsPVe6MsP0r7tW4zHadDA_o449AvSACLcBGAs/s1600/55910168_2074010139320099_3673840915337707520_o.jpg') no-repeat fixed;
+	background-size: cover;
+	justify-content: center;
+}
+
+section.aboutpsg .container {
+	background: #ffffffcc;
+	height: 450px;
+	left: auto;
+	margin-top: -30px;
+	padding-top: 60px;
+}
+
 section.aboutsg a {
 	color: var(--color-normal);
 	transition: .3s;
@@ -138,11 +152,19 @@ section {
 
 section.artikel h1 {
 	transform: scale(0, 0);
+	opacity: 0;
 	transition: .3s;
 }
 
 .artikel-tambahan {
+	opacity: 1;
 	transform: scale(1, 1) !important;
+}
+
+section.artikel .popular-posts {
+	transform: scale(0);
+	opacity: 0;
+	transition: .3;
 }
 
 section h1 {
