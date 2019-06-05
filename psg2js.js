@@ -9,3 +9,9 @@ var settingan = {
 if (Notification.permission === 'granted') {
     new Notification('Jadwal Gathering PSG', settingan);
 };
+$(document).ready(function () {
+    $('#menu-contact').click(function () {
+        $('.item').toggleClass('item-tambahan');
+        $('.menu-contact i').toggleClass('menu-contact-tambahan');
+    })
+})

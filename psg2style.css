@@ -227,3 +227,58 @@ footer {
 		top: -0px;
 	}
 }
+
+.snipet {
+	position: fixed;
+	right: 0;
+	bottom: 100;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+.item {
+	position: relative;
+	font-size: 2em;
+	box-sizing: content-box;
+	color: white !important;
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 15px;
+	display: block;
+	transition: .3s;
+	cursor: pointer;
+	top: 135px;
+	transition: .3s;
+	text-decoration: none;
+}
+
+.item-tambahan {
+	top: 0px;
+}
+
+.menu-contact {
+	border: 1px solid #00000011;
+	background-color: #78e08f;
+	z-index: 1;
+}
+
+.menu-contact i {
+	transform: rotate(135deg);
+	transition: .3s;
+}
+
+.menu-contact-tambahan {
+	transform: rotate(180deg) !important;
+}
+
+.group-facebook {
+	border: 1px solid #00000011;
+	background-color: #4a69bd;
+}
+
+.instagram {
+	border: 1px solid #00000011;
+	background-color: #FC427B;
+}
