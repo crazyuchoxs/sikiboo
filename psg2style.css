@@ -244,8 +244,8 @@ footer {
 	color: white !important;
 	text-align: center;
 	margin: 10px;
-	padding: 10px;
-	border-radius: 15px;
+	padding: 10px 20px !important;
+	border-radius: 40px;
 	display: block;
 	cursor: pointer;
 	top: 135px;
