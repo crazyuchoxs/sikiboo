@@ -52,5 +52,5 @@ if (navigator.userAgent.match(/Android/i) ||
     navigator.userAgent.match(/Windows Phone/i)) {
     $('.instagram').click(function () {
         $(window).open('https://www.instagram.com/pontianaksugarglider');
-    });
+    })
 };
