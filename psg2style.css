@@ -230,8 +230,8 @@ footer {
 
 .snipet {
 	position: fixed;
-	right: 0;
-	bottom: 100;
+	right: 0px;
+	bottom: 100px;
 	margin: 0px;
 	padding: 0px;
 	overflow: hidden;
@@ -247,7 +247,6 @@ footer {
 	padding: 10px;
 	border-radius: 15px;
 	display: block;
-	transition: .3s;
 	cursor: pointer;
 	top: 135px;
 	transition: .3s;
