@@ -37,3 +37,9 @@ $(window).scroll(function () {
         $('.artikel .popular-posts').removeClass('artikel-tambahan');
     }
 });
+$(document).ready(function () {
+    $('#menu-contact').click(function () {
+        $('.item').toggleClass('item-tambahan');
+        $('.menu-contact i').toggleClass('menu-contact-tambahan');
+    })
+})
