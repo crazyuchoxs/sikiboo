@@ -9,6 +9,11 @@
 	--color-isoft-light: #f6e58d;
 }
 
+::selection {
+	color: var(--color-isoft-light);
+	background: var(--color-inormal);
+}
+
 body {
 	padding-bottom: 60px;
 	font-family: 'Montserrat', sans-serif;
