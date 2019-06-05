@@ -50,7 +50,7 @@ if (navigator.userAgent.match(/Android/i) ||
     navigator.userAgent.match(/iPod/i) ||
     navigator.userAgent.match(/BlackBerry/i) ||
     navigator.userAgent.match(/Windows Phone/i)) {
-    $(.instagram).click(function () {
+    $('.instagram').click(function () {
         $(window).open('https://www.instagram.com/pontianaksugarglider');
     });
 };
