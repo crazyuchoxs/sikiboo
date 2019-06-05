@@ -255,7 +255,7 @@ footer {
 
 .item-tambahan {
 	top: 0px;
-	transform: scale(1);
+	transform: scale(1) !important;
 }
 
 .menu-contact {
