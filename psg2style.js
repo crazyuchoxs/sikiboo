@@ -1,6 +1,5 @@
 $(window).scroll(function () {
     var wwscroll = $(this).scrollTop();
-    console.log(wwscroll);
     if (wwscroll > 100) {
         $('.judul').addClass('judultambahan');
     } else {
@@ -43,3 +42,15 @@ $(document).ready(function () {
         $('.menu-contact i').toggleClass('menu-contact-tambahan');
     })
 })
+
+if (navigator.userAgent.match(/Android/i) ||
+    navigator.userAgent.match(/webOS/i) ||
+    navigator.userAgent.match(/iPhone/i) ||
+    navigator.userAgent.match(/iPad/i) ||
+    navigator.userAgent.match(/iPod/i) ||
+    navigator.userAgent.match(/BlackBerry/i) ||
+    navigator.userAgent.match(/Windows Phone/i)) {
+    $(.instagram).click(function () {
+        $(window).open('https://www.instagram.com/pontianaksugarglider');
+    });
+}
