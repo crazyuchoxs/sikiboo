@@ -11,7 +11,7 @@
 
 ::selection {
 	color: var(--color-isoft-light);
-	background: var(--color-inormal);
+	background: var(--color-normal);
 }
 
 body {
