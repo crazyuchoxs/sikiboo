@@ -53,7 +53,4 @@ if (navigator.userAgent.match(/Android/i) ||
     $(.instagram).click(function () {
         $(window).open('https://www.instagram.com/pontianaksugarglider');
     });
-    $(.group - facebook).click(function () {
-        $(window).open('https://www.facebook.com/groups/SG.Pontianak');
-    });
-}
+};
