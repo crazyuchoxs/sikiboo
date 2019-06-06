@@ -42,10 +42,10 @@ $(document).ready(function () {
         $('.menu-contact i').toggleClass('menu-contact-tambahan');
     })
 })
-    $('.instagram').click(function () {
-        $(window).open('https://www.instagram.com/pontianaksugarglider');
-    });
+$('#instagram').click(function () {
+    $(window).open('https://www.instagram.com/pontianaksugarglider');
+});
 
-    $('.groupfacebook').click(function () {
-        $(window).open('https://www.facebook.com/groups/SG.Pontianak');
-    });
+$('#groupfacebook').click(function () {
+    $(window).open('https://www.facebook.com/groups/SG.Pontianak');
+});
