@@ -233,6 +233,20 @@ footer {
 	}
 }
 
+@keyframes contact {
+	0% {
+		transform: scale(1)
+	}
+
+	50% {
+		transform: scale(1.2)
+	}
+
+	100% {
+		transform: scale(1.3)
+	}
+}
+
 .snipet {
 	position: fixed;
 	right: 0px;
@@ -267,6 +281,7 @@ footer {
 	border: 1px solid #00000011;
 	background-color: #78e08f;
 	z-index: 3005;
+	animation: contact .3s infinite;
 }
 
 .menu-contact i {
