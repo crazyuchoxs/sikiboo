@@ -43,9 +43,9 @@ $(document).ready(function () {
     })
 })
 $('#instagram').click(function () {
-    $(window).open('https://www.instagram.com/pontianaksugarglider');
+    window.open('https://www.instagram.com/pontianaksugarglider');
 });
 
 $('#groupfacebook').click(function () {
-    $(window).open('https://www.facebook.com/groups/SG.Pontianak');
+    window.open('https://www.facebook.com/groups/SG.Pontianak');
 });
