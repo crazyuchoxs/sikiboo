@@ -211,7 +211,6 @@ footer {
 
 .carousel-inner {
 	min-height: 312px;
-	;
 	position: relative;
 }
 
@@ -289,7 +288,7 @@ footer {
 	border: 1px solid #00000011;
 	background-color: #78e08f;
 	z-index: 3005;
-	animation: contact 1.5s infinite;
+	animation: contact .6s infinite;
 }
 
 .menu-contact i {
