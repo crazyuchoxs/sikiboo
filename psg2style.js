@@ -63,19 +63,23 @@ $(document).ready(function () {
 $('#beranda').click(function () {
     $('.nav-link').removeClass('active');
     $('#beranda').addClass('active');
+    this.scroll(0, 0);
 });
 
 $('#aboutsg').click(function () {
     $('.nav-link').removeClass('active');
     $('#aboutsg').addClass('active');
+    this.scroll(0, 525);
 });
 
 $('#aboutpsg').click(function () {
     $('.nav-link').removeClass('active');
     $('#aboutpsg').addClass('active');
+    this.scroll(0, 1429);
 });
 
 $('#artikel').click(function () {
     $('.nav-link').removeClass('active');
     $('#artikel').addClass('active');
+    this.scroll(0, 1888);
 });
