@@ -61,21 +61,21 @@ $(document).ready(function () {
 });
 
 $('#beranda').click(function () {
-    $('.active').removeClass('active');
+    $('.nav-link').removeClass('active');
     $('#beranda').addClass('active');
 });
 
 $('#aboutsg').click(function () {
-    $('.active').removeClass('active');
+    $('.nav-link').removeClass('active');
     $('#aboutsg').addClass('active');
 });
 
 $('#aboutpsg').click(function () {
-    $('.active').removeClass('active');
+    $('.nav-link').removeClass('active');
     $('#aboutpsg').addClass('active');
 });
 
 $('#artikel').click(function () {
-    $('.active').removeClass('active');
+    $('.nav-link').removeClass('active');
     $('#artikel').addClass('active');
 });
