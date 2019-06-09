@@ -61,5 +61,21 @@ $(document).ready(function () {
 });
 
 $('#beranda').click(function () {
+    $('.active').removeClass('active');
     $('#beranda').addClass('active');
+});
+
+$('#aboutsg').click(function () {
+    $('.active').removeClass('active');
+    $('#aboutsg').addClass('active');
+});
+
+$('#aboutpsg').click(function () {
+    $('.active').removeClass('active');
+    $('#aboutpsg').addClass('active');
+});
+
+$('#artikel').click(function () {
+    $('.active').removeClass('active');
+    $('#artikel').addClass('active');
 });
