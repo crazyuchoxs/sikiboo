@@ -62,23 +62,23 @@ $(document).ready(function () {
 $('#beranda').click(function () {
     $('.nav-link').removeClass('active');
     $('#beranda').addClass('active');
-    $(body).scrollTop(0);
+    $('body').scrollTop(0);
 });
 
 $('#aboutsg').click(function () {
     $('.nav-link').removeClass('active');
     $('#aboutsg').addClass('active');
-    $(body).scrollTop(525);
+    $('body').scrollTop(525);
 });
 
 $('#aboutpsg').click(function () {
     $('.nav-link').removeClass('active');
     $('#aboutpsg').addClass('active');
-    $(body).scrollTop(1429);
+    $('body').scrollTop(1429);
 });
 
 $('#artikel').click(function () {
     $('.nav-link').removeClass('active');
     $('#artikel').addClass('active');
-    $(body).scrollTop(1888);
+    $('body').scrollTop(1888);
 });
