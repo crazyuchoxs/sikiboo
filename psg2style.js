@@ -46,7 +46,7 @@ $(document).ready(function () {
         $('.menu-contact i').toggleClass('menu-contact-tambahan');
     });
 
-    if (location.href == 'http://www.pontianaksugarglider.org#home') {
+    if (location.href == document.getElementById("beranda").href) {
         $('#beranda').addClass('active');
     } else {
         $('#beranda').removeClass('active');
