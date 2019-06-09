@@ -254,6 +254,22 @@ footer {
 	}
 }
 
+@keyframes team {
+	0% {
+		transform: scale(5) rotate(360deg);
+		opacity: 0;
+	}
+
+	30% {
+		opacity: 1;
+	}
+
+	100% {
+		transform: scale(1) rotate(45deg);
+		opacity: 1;
+	}
+}
+
 .snipet {
 	position: fixed;
 	right: 0px;
@@ -310,4 +326,45 @@ footer {
 	border: 1px solid #00000011;
 	background-color: #FC427B;
 	transform: scale(0);
+}
+
+.daftar-anggota {
+	flex-basis: 100%;
+	display: flex;
+	margin: 40px auto;
+	justify-content: center;
+	text-align: center;
+	color: var(--color-dark) !important;
+}
+
+.daftar-anggota div {
+	font-size: 50px;
+	width: 100px;
+	height: 100px;
+	cursor: pointer;
+}
+
+.icon-anggota {
+	display: flex;
+	border: 5px solid var(--color-dark);
+	flex-basis: 200px;
+	justify-content: center;
+	padding: 25px;
+	transform: rotate(45deg);
+	opacity: 0;
+}
+
+.icon-anggota-tambahan {
+	animation: team 1s both;
+}
+
+.icon-anggota i {
+	transform: rotate(-45deg);
+}
+
+.title-anggota {
+	padding-top: 30px;
+	font-size: 15px !important;
+	font-weight: bolder !important;
+	transform: scale(1.6);
 }

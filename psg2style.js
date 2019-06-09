@@ -1,5 +1,6 @@
 $(window).scroll(function () {
     var wwscroll = $(this).scrollTop();
+    console.log(wwscroll);
     if (wwscroll > 100) {
         $('.judul').addClass('judultambahan');
     } else {
@@ -14,14 +15,17 @@ $(window).scroll(function () {
 
     if (wwscroll > 1070) {
         $('.aboutpsg h1').addClass('judultambahan');
+
     } else {
         $('.aboutpsg h1').removeClass('judultambahan');
     }
 
     if (wwscroll > 1224) {
         $('.aboutpsg p').addClass('post-tambahan');
+        $('.icon-anggota').addClass('icon-anggota-tambahan');
     } else {
         $('.aboutpsg p').removeClass('post-tambahan');
+        $('.icon-anggota').removeClass('icon-anggota-tambahan');
     }
 
     if (wwscroll > 1614) {
@@ -49,3 +53,6 @@ $('#instagram').click(function () {
 $('#groupfacebook').click(function () {
     window.open('https://www.facebook.com/groups/SG.Pontianak');
 });
+$('.daftar-anggota div').click(function () {
+    window.open('https://www.pontianaksugarglider.org/p/blog-page_9.html');
+})
