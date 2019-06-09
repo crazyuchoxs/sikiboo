@@ -60,8 +60,6 @@ $(document).ready(function () {
     });
 });
 
-if (location.href == document.getElementById("beranda").href) {
+$('#beranda').click(function () {
     $('#beranda').addClass('active');
-} else {
-    $('#beranda').removeClass('active');
-};
+});
