@@ -54,5 +54,5 @@ $('#groupfacebook').click(function () {
     window.open('https://www.facebook.com/groups/SG.Pontianak');
 });
 $('.daftar-anggota div').click(function () {
-    window.open('https://www.pontianaksugarglider.org/p/blog-page_9.html');
+    window.open('https://www.pontianaksugarglider.org/p/blog-page_9.html', '_self');
 })
