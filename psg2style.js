@@ -44,15 +44,23 @@ $(document).ready(function () {
     $('#menu-contact').click(function () {
         $('.item').toggleClass('item-tambahan');
         $('.menu-contact i').toggleClass('menu-contact-tambahan');
-    })
-})
-$('#instagram').click(function () {
-    window.open('https://www.instagram.com/pontianaksugarglider');
-});
+    });
 
-$('#groupfacebook').click(function () {
-    window.open('https://www.facebook.com/groups/SG.Pontianak');
-});
-$('.daftar-anggota div').click(function () {
-    window.open('https://www.pontianaksugarglider.org/p/blog-page_9.html', '_self');
+    if (location.origin === "http://www.pontianaksugarglider.org") {
+        $('#beranda').addClass('active');
+    } else {
+        $('#beranda').removeClass('active');
+    }
+
+    $('#instagram').click(function () {
+        window.open('https://www.instagram.com/pontianaksugarglider');
+    });
+
+    $('#groupfacebook').click(function () {
+        window.open('https://www.facebook.com/groups/SG.Pontianak');
+    });
+
+    $('.daftar-anggota div').click(function () {
+        window.open('https://www.pontianaksugarglider.org/p/blog-page_9.html', '_self');
+    });
 })
