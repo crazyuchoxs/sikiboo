@@ -1,15 +1,3 @@
-var firebaseConfig = {
-    apiKey: & quot;AIzaSyBeT9LIhfD1iq0CMG_ZzXdAeprGasUPPFo & quot;,
-    authDomain: & quot;project - web - notif.firebaseapp.com & quot;,
-    databaseURL: & quot;https: //project-web-notif.firebaseio.com&quot;,
-        projectId: & quot;project - web - notif & quot;,
-    storageBucket: & quot;project - web - notif.appspot.com & quot;,
-    messagingSenderId: & quot;553762115540 & quot;,
-    appId: & quot;1: 553762115540: web: 224 cc9e2cca0dc15 & quot;
-};
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-
 $(window).scroll(function () {
     var wwscroll = $(this).scrollTop();
     console.log(wwscroll);
@@ -53,8 +41,6 @@ $(window).scroll(function () {
     }
 });
 
-
-
 $(document).ready(function () {
     $('#menu-contact').click(function () {
         $('.item').toggleClass('item-tambahan');
@@ -78,4 +64,4 @@ if (location.href == document.getElementById("beranda").href) {
     $('#beranda').addClass('active');
 } else {
     $('#beranda').removeClass('active');
-}
+};
