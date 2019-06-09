@@ -52,17 +52,14 @@ $(window).scroll(function () {
         $('.artikel .popular-posts').removeClass('artikel-tambahan');
     }
 });
+
+
+
 $(document).ready(function () {
     $('#menu-contact').click(function () {
         $('.item').toggleClass('item-tambahan');
         $('.menu-contact i').toggleClass('menu-contact-tambahan');
     });
-
-    if (location.href == document.getElementById("beranda").href) {
-        $('#beranda').addClass('active');
-    } else {
-        $('#beranda').removeClass('active');
-    }
 
     $('#instagram').click(function () {
         window.open('https://www.instagram.com/pontianaksugarglider');
@@ -75,4 +72,10 @@ $(document).ready(function () {
     $('.daftar-anggota div').click(function () {
         window.open('https://www.pontianaksugarglider.org/p/blog-page_9.html', '_self');
     });
-})
+});
+
+if (location.href == document.getElementById("beranda").href) {
+    $('#beranda').addClass('active');
+} else {
+    $('#beranda').removeClass('active');
+}
