@@ -59,26 +59,33 @@ $(document).ready(function () {
     });
 });
 
-$('#beranda').click(function () {
+$('.nav-link').click(function () {
     $('.nav-link').removeClass('active');
-    $('#beranda').addClass('active');
-    $('body').scrollTop('0');
-});
+    $(this).addClass('active');
+})
 
-$('#aboutsg').click(function () {
-    $('.nav-link').removeClass('active');
-    $('#aboutsg').addClass('active');
-    $('body').scrollTop('525');
-});
 
-$('#aboutpsg').click(function () {
-    $('.nav-link').removeClass('active');
-    $('#aboutpsg').addClass('active');
-    $('body').scrollTop('1429');
-});
 
-$('#artikel').click(function () {
-    $('.nav-link').removeClass('active');
-    $('#artikel').addClass('active');
-    $('body').scrollTop('1888');
-});
+// $('#beranda').on('click', function () {
+//     window.scroll('0', '0');
+//     $('.nav-link').removeClass('active');
+//     $('#beranda').addClass('active');
+// });
+
+// $('#aboutsg').on('click', function () {
+//     window.scroll('0', '252');
+//     $('.nav-link').removeClass('active');
+//     $('#aboutsg').addClass('active');
+// });
+
+// $('#aboutpsg').click(function () {
+//     $('.nav-link').removeClass('active');
+//     $('#aboutpsg').addClass('active');
+//     window.scroll('0', '1429');
+// });
+
+// $('#artikel').click(function () {
+//     $('.nav-link').removeClass('active');
+//     $('#artikel').addClass('active');
+//     window.scroll('0', '1888');
+// });

@@ -368,3 +368,7 @@ footer {
 	font-weight: bolder !important;
 	transform: scale(1.6);
 }
+
+.nav-link {
+	cursor: pointer !important;
+}
