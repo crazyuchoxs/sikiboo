@@ -6,7 +6,7 @@ http://202.80.222.145/000001/2/ch14041511532707866226/index.m3u8?virtualDomain=0
 #EXTINF:0, group-title="LOKAL",RCTI2
 https://cdn-livetv3.metube.id/hls/eplrcti.m3u8
 #EXTINF:0, group-title="LOKAL",RCTI3
-http://kmklive-lh.akamaihd.net/i/rcti_ta_regular@94478/master.m3u8
+https://kmklive-lh.akamaihd.net/i/rcti_ta_regular@94478/master.m3u8
 #EXTINF:0, group-title="LOKAL",MNC
 http://202.80.222.182/000001/2/ch14041511111714365733/index.m3u8?virtualDomain=000001.live_hls.zte.com
 #EXTINF:0, group-title="LOKAL",GLOBAL TV
