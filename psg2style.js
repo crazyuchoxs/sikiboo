@@ -55,7 +55,7 @@ $(document).ready(function () {
     });
 
     $('.daftar-anggota div').click(function () {
-        window.open('https://www.pontianaksugarglider.org/p/blog-page_9.html', '_self');
+        window.open('https://www.pontianaksugarglider.org/p/blog-page_9.html#aboutsg', '_self');
     });
 });
 
