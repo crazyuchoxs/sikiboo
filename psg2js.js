@@ -12,7 +12,7 @@ if (Notification.permission === 'granted') {
 function cokiescek() {
     var uname = getCookie("username");
     if (uname == "") {
-        window.cookie("username=psglover");
+        document.cookie("username=psglover");
         alert('INFO GATH \nHari : Minggu \nTanggal : 23 - Juni - 2019, \nTempat : Alun - Alun(Korem), dari jam 16: 00 ~Selesai');
     } else {
 
