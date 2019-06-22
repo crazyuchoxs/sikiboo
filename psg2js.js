@@ -8,3 +8,13 @@ var settingan = {
 if (Notification.permission === 'granted') {
     new Notification('Jadwal Gathering PSG', settingan);
 };
+
+function cokiescek() {
+    var uname = getCookie("username");
+    if (uname == "") {
+        window.cookie("username=psglover");
+        alert('INFO GATH \nHari : Minggu \nTanggal : 23 - Juni - 2019, \nTempat : Alun - Alun(Korem), dari jam 16: 00 ~Selesai');
+    } else {
+
+    }
+}
