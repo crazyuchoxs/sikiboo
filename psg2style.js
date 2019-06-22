@@ -89,3 +89,14 @@ $('.nav-link').click(function () {
 //     $('#artikel').addClass('active');
 //     window.scroll('0', '1888');
 // });
+
+
+function cokiescek() {
+    var uname = getCookie("username");
+    if (uname == "") {
+        document.cookie("username=psglover");
+        alert('INFO GATH \nHari : Minggu \nTanggal : 23 - Juni - 2019, \nTempat : Alun - Alun(Korem), dari jam 16: 00 ~Selesai');
+    } else {
+
+    }
+}
