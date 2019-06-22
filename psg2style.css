@@ -27,7 +27,7 @@ section.aboutpsg {
 }
 
 section.aboutpsg .container {
-	background: #ffffffcc;
+	background: rgba(255, 255, 255, 0.76);
 	min-height: 450px;
 	left: auto;
 	margin-top: -30px;
