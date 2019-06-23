@@ -91,7 +91,7 @@ $('.nav-link').click(function () {
 // });
 
 
-function cokiescek() {
+window.onload = function () {
     var uname = Cookies.get("username");
     if (uname === "") {
         Cookies.set("username", "psglover", {
