@@ -93,14 +93,12 @@ $('.nav-link').click(function () {
 
 window.onload = function () {
     var uname = Cookies.get("username");
-    if (uname === "") {
+    if (uname === "" || uname === undefined) {
         Cookies.set("username", "psglover", {
             expires: 1
         });
         alert('INFO GATH \nHari : Minggu \nTanggal : 23 - Juni - 2019, \nTempat : Alun - Alun(Korem), dari jam 16: 00 ~Selesai');
     } else {
-        Cookies.set("username", "", {
-            expires: 1
-        });
+        Cookies.set("username", "");
     }
 }
