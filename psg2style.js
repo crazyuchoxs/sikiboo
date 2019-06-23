@@ -92,9 +92,9 @@ $('.nav-link').click(function () {
 
 
 function cokiescek() {
-    var uname = getCookie("username");
+    var uname = Cookies.get("username");
     if (uname === "") {
-        document.cookie("username=psglover");
+        Cookies.set("username=psglover");
         alert('INFO GATH \nHari : Minggu \nTanggal : 23 - Juni - 2019, \nTempat : Alun - Alun(Korem), dari jam 16: 00 ~Selesai');
     } else {
 
