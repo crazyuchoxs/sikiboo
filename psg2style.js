@@ -57,6 +57,9 @@ $(document).ready(function () {
     $('.daftar-anggota div').click(function () {
         window.open('https://www.pontianaksugarglider.org/p/blog-page_9.html#aboutsg', '_self');
     });
+    $('.card').after().click(function () {
+        $('.alert-info').toggleClass('hide-alert');
+    });
 });
 
 $('.nav-link').click(function () {
@@ -94,10 +97,8 @@ $('.nav-link').click(function () {
 window.onload = function () {
     var uname = Cookies.get("username");
     if (uname === "" || uname === undefined) {
-        Cookies.set("username", "psglover", {
-            expires: 1
-        });
-        alert('INFO GATH \nHari : Minggu \nTanggal : 23 - Juni - 2019, \nTempat : Alun - Alun(Korem), dari jam 16: 00 ~Selesai');
+        Cookies.set("username", "psglover");
+        $('.alert-info').removeClass('hide-alert');
     } else {
         Cookies.set("username", "");
     }
