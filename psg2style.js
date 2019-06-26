@@ -101,7 +101,5 @@ window.onload = function () {
             expires: 1
         });
         $('.alert-info').removeClass('hide-alert');
-    } else {
-        Cookies.set("username", "");
     }
 }
