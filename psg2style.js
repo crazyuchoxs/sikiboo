@@ -97,7 +97,9 @@ $('.nav-link').click(function () {
 window.onload = function () {
     var uname = Cookies.get("username");
     if (uname === "" || uname === undefined) {
-        Cookies.set("username", "psglover");
+        Cookies.set("username", "psglover", {
+            expires: 1
+        });
         $('.alert-info').removeClass('hide-alert');
     } else {
         Cookies.set("username", "");
