@@ -58,7 +58,7 @@ $(document).ready(function () {
         window.open('https://www.pontianaksugarglider.org/p/blog-page_9.html#aboutsg', '_self');
     });
     $('.card').after().click(function () {
-        $('.alert-info').toggleClass('hide-alert');
+        $('.alert-info').removeClass('hide-alert');
     });
 });
 
