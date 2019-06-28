@@ -101,9 +101,7 @@ window.onload = function () {
     $('#gtempat').html('Waterfront Pontianak (Tanjungpura - Jl. Irian)');
     var uname = Cookies.get("username");
     if (uname === "" || uname === undefined) {
-        Cookies.set("username", "psglover", {
-            expires: 1
-        });
+        Cookies.set("username", "psglover");
         $('.alert-info').removeClass('hide-alert');
     };
     $('#jadwalgath').click(function () {
