@@ -95,6 +95,10 @@ $('.nav-link').click(function () {
 
 
 window.onload = function () {
+    $('#ghari').html('Minggu');
+    $('#gtanggal').html('30 Juli 2019');
+    $('#gjam').html('16 ~ Selesai');
+    $('#gtempat').html('Waterfront Pontianak (Tanjungpura - Jl. Irian)');
     var uname = Cookies.get("username");
     if (uname === "" || uname === undefined) {
         Cookies.set("username", "psglover", {
