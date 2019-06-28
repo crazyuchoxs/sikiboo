@@ -105,5 +105,8 @@ window.onload = function () {
             expires: 1
         });
         $('.alert-info').removeClass('hide-alert');
-    }
+    };
+    $('#jadwalgath').click(function () {
+        $('.alert-info').removeClass('hide-alert');
+    });
 }
