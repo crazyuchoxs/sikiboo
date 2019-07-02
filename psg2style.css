@@ -401,8 +401,8 @@ footer {
 	content: " ";
 	border-top: 15px solid var(--color-light);
 	border-right: 15px solid var(--color-light);
-	border-bottom: 15px solid #0000;
-	border-left: 15px solid #0000;
+	border-bottom: 15px solid rgba(0, 0, 0, 0);
+	border-left: 15px solid rgba(0, 0, 0, 0);
 	position: absolute;
 	margin-left: -40px;
 }
