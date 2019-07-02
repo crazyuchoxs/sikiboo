@@ -370,6 +370,7 @@ footer {
 }
 
 .menu-jadwal {
+	z-index: 1500;
 	position: fixed;
 	display: inline-block;
 	top: 0px;
