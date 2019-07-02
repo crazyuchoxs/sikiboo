@@ -1,8 +1,8 @@
 :root {
-	--color-dark: #130f40;
-	--color-normal: #4834d4;
-	--color-light: #686de0;
-	--color-soft-light: #dff9fb;
+	--color-dark: #1d3863;
+	--color-normal: #396fc6;
+	--color-light: #4d7ecb;
+	--color-soft-light: #ebf1f9;
 	--color-idark: #402f0f;
 	--color-inormal: #f0932b;
 	--color-ilight: #ffbe76;
@@ -369,6 +369,43 @@ footer {
 	transform: scale(1) !important;
 }
 
+.menu-jadwal {
+	position: fixed;
+	display: inline-block;
+	top: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+.menu-jadwal span {
+	background: var(--color-normal);
+	color: var(--color-soft-light);
+	padding: 10px 10px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	box-shadow: 0px 1px 5px rgba(0, 0, 0, .25);
+}
+
+.menu-jadwal span::after {
+	content: " ";
+	border-top: 15px solid var(--color-light);
+	border-left: 15px solid var(--color-light);
+	border-bottom: 15px solid #0000;
+	border-right: 15px solid #0000;
+	position: absolute;
+	margin-left: 10px;
+}
+
+.menu-jadwal span::before {
+	content: " ";
+	border-top: 15px solid var(--color-light);
+	border-right: 15px solid var(--color-light);
+	border-bottom: 15px solid #0000;
+	border-left: 15px solid #0000;
+	position: absolute;
+	margin-left: -40px;
+}
+
 .menu-contact {
 	border: 1px solid #00000011;
 	background-color: #78e08f;
@@ -438,6 +475,7 @@ footer {
 	transform: scale(1.6);
 }
 
-.nav-link {
+.nav-link,
+.menu-jadwal span {
 	cursor: pointer !important;
 }
