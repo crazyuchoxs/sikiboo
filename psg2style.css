@@ -487,8 +487,9 @@ footer {
 	color: var(--color-soft-light) !important;
 	width: 250px;
 	height: 350px;
-	margin: 20px;
+	margin: 10px 25px;
 	padding: 0px;
+	background: none;
 }
 
 .nama-prajurit a {
@@ -540,6 +541,7 @@ footer {
 
 .body-prajurit h5 {
 	font-weight: bold;
+	text-align: left;
 }
 
 .body-prajurit i {
