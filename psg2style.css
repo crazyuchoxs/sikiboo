@@ -487,6 +487,8 @@ footer {
 	color: var(--color-soft-light);
 	width: 250px;
 	height: 350px;
+	margin: 20px;
+	padding: 0px;
 }
 
 .nama-prajurit a {
