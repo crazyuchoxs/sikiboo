@@ -484,7 +484,7 @@ footer {
 .nama-prajurit {
 	cursor: pointer;
 	border: 0px;
-	color: var(--color-soft-light);
+	color: var(--color-soft-light) !important;
 	width: 250px;
 	height: 350px;
 	margin: 20px;
@@ -492,7 +492,7 @@ footer {
 }
 
 .nama-prajurit a {
-	color: var(--color-soft-light);
+	color: var(--color-soft-light) !important;
 }
 
 .nama-prajurit a:hover {
