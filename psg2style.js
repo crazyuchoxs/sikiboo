@@ -108,3 +108,14 @@ window.onload = function () {
         $('.alert-info').removeClass('hide-alert');
     });
 }
+var namaprajurit = document.getElementsByClassName('nama-prajurit');
+var frontbody = document.getElementsByClassName('front-body');
+var backbody = document.getElementsByClassName('back-body');
+for (let x = 0; x < namaprajurit.length; x++) {
+    namaprajurit[x].addEventListener("click", function () {
+        $('.front-body').removeClass('front-body-click');
+        $('.back-body').removeClass('back-body-click');
+        frontbody[x].classList.add('front-body-click');
+        backbody[x].classList.add('back-body-click');
+    })
+}

@@ -63,8 +63,63 @@
         </div>
     </nav>
     <!-- end Navbar -->
-    <div style="height: 1400px;"></div>
+    <!-- anggota aktif -->
+    <div class="container row ">
+        <script>
+            var img = [
+                "ali.jpg",
+                "ali.jpg"
+            ]
+            var nama = [
+                "Ricky Anggrianto",
+                "Murdianengsih"
+            ];
+            var jabatan = [
+                "Anggota",
+                "Anggota"
+            ]
+            var fb = [
+                "crazyuhcoxs",
+                "murdiianengsih"
+            ]
+            var ig = [
+                "crazyuchoxs",
+                "murdiianengsih"
+            ]
+            var wa = [
+                "6285245507773",
+                "6285245507773"
+            ]
+            for (let z = 0; z < nama.length; z++) {
+                document.write(
+                    '<div class="card nama-prajurit col-lg-3 col-md-4"><div class="front-body card"><img src="' +
+                    img[z] + '"></div><div class="back-body card"><div class="card-body body-prajurit"><h5>' + nama[
+                        z] +
+                    '</h5><h6>' + jabatan[z] + '</h6><a href="https://www.facebook.com/' + fb[z] +
+                    '"><i class="fa fa-facebook"></i></a><a href="https://www.instagram.com/' + ig[z] +
+                    '"><i class="fa fa-instagram"></i></a><a href="https://wa.me/' + wa[z] +
+                    '"><i class="fa fa-whatsapp"></i></a></div></div></div>');
+            }
+        </script>
+    </div>
+    <!-- <div class="row" style="height: 1400px; padding: 50px;">
+        <div class="card nama-prajurit col-lg-3 col-md-4">
+            <div class="front-body card">
+                <img src="ali.jpg" alt="front" srcset=""></div>
+            <div class="back-body card">
+                <div class="card-body body-prajurit">
+                    <h5>Muhammad Hambali</h5>
+                    <h6>Anggota</h6>
+                    <a href=" #"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="https://wa.me/6285245507773"><i class="fa fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div style="height: 1400px"></div>
     <section class='aboutpsg text-justify bg-white' id='aboutpsg'>
+
         <div class='container'>
             <div class='row justify-content-center'>
                 <div class='col-10 text-center'>
@@ -116,6 +171,7 @@
         </div>
     </div>
     <div style="height: 1000px"></div>
+
     <script crossorigin='anonymous' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo'
         src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
     <script crossorigin='anonymous' integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1'
@@ -123,11 +179,12 @@
     </script>
     <script crossorigin='anonymous' integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM'
         src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
-    <script src="/psg2style.js" />
-    </script>
+    <script src='https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js'></script>
+    <script src="/psg2style.js"></script>
     <div class="menu-jadwal">
         <span id="jadwalgath">Jadwal Gathering</span>
     </div>
+
 </body>
 
 </html>

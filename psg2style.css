@@ -480,3 +480,71 @@ footer {
 .menu-jadwal span {
 	cursor: pointer !important;
 }
+
+.nama-prajurit {
+	cursor: pointer;
+	border: 0px;
+	color: var(--color-soft-light);
+	width: 250px;
+	height: 350px;
+}
+
+.nama-prajurit a {
+	color: var(--color-soft-light);
+}
+
+.nama-prajurit a:hover {
+	color: #fff;
+}
+
+.front-body,
+.back-body {
+	width: 250px;
+	height: 350px;
+	position: absolute;
+	backface-visibility: hidden;
+	transform-style: preserve-3d;
+	transition: .3s linear;
+	overflow: hidden;
+	border: 0px;
+}
+
+.front-body {
+	transform: perspective(600px) rotateY(0deg);
+	background: var(--color-dark);
+}
+
+.back-body {
+	transform: perspective(600px) rotateY(-180deg);
+	background: var(--color-normal);
+}
+
+.front-body-click {
+	transform: perspective(600px) rotateY(-180deg);
+}
+
+.back-body-click {
+	transform: perspective(600px) rotateY(-360deg);
+}
+
+.body-prajurit {
+	width: 100%;
+	height: 50%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+
+.body-prajurit h5 {
+	font-weight: bold;
+}
+
+.body-prajurit i {
+	font-size: 25px;
+	margin: 10px 10px;
+}
+
+.back-body a:hover {
+	color: #fff;
+}
