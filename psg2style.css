@@ -520,6 +520,7 @@ footer {
 .back-body {
 	transform: perspective(600px) rotateY(-180deg);
 	background: var(--color-normal);
+	cursor: default;
 }
 
 .front-body-click {
@@ -551,4 +552,5 @@ footer {
 
 .back-body a:hover {
 	color: #fff;
+	cursor: pointer;
 }
