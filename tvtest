@@ -4,7 +4,7 @@ https://defjwd5stvrhj.cloudfront.net/out/v1/54a201076b1e46ee83027a72ef637252/ind
 #EXTINF:0, group-title="LOKAL",RCTI
 http://202.80.222.145/000001/2/ch14041511532707866226/index.m3u8?virtualDomain=000001.live_hls.zte.com
 #EXTINF:0, group-title="LOKAL",RCTI2
-https://cdn-livetv3.metube.id/hls/eplrcti.m3u8
+https://cdn-livetv1.metube.id/hls/rcti.m3u8
 #EXTINF:0, group-title="LOKAL",RCTI3
 https://kmklive-lh.akamaihd.net/i/rcti_ta_regular@94478/master.m3u8
 #EXTINF:0, group-title="LOKAL",MNC
