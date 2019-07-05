@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:0, group-title="RCTI",1
-https://cdn-livetv1.metube.id/hls/eplrcti.m3u8
+https://cdn-livetv1.metube.id/hls/eplrcti_480/index.m3u8
 #EXTINF:0, group-title="RCTI",2
 https://cdn-livetv3.metube.id/hls/eplrcti.m3u8
 #EXTINF:0, group-title="RCTI",3
