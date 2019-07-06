@@ -96,9 +96,9 @@ $('.nav-link').click(function () {
 
 window.onload = function () {
     $('#ghari').html('Minggu');
-    $('#gtanggal').html('30 Juni 2019');
+    $('#gtanggal').html('7 Juli 2019');
     $('#gjam').html('16:00 ~ Selesai');
-    $('#gtempat').html('Waterfront Pontianak (Tanjungpura - Jl. Irian)');
+    $('#gtempat').html('Alun - Alun Kapuas (Korem)');
     var uname = Cookies.get("username");
     if (uname === "" || uname === undefined) {
         Cookies.set("username", "psglover");
