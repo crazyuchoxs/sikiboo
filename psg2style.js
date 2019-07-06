@@ -67,33 +67,6 @@ $('.nav-link').click(function () {
     $(this).addClass('active');
 })
 
-
-
-// $('#beranda').on('click', function () {
-//     window.scroll('0', '0');
-//     $('.nav-link').removeClass('active');
-//     $('#beranda').addClass('active');
-// });
-
-// $('#aboutsg').on('click', function () {
-//     window.scroll('0', '252');
-//     $('.nav-link').removeClass('active');
-//     $('#aboutsg').addClass('active');
-// });
-
-// $('#aboutpsg').click(function () {
-//     $('.nav-link').removeClass('active');
-//     $('#aboutpsg').addClass('active');
-//     window.scroll('0', '1429');
-// });
-
-// $('#artikel').click(function () {
-//     $('.nav-link').removeClass('active');
-//     $('#artikel').addClass('active');
-//     window.scroll('0', '1888');
-// });
-
-
 window.onload = function () {
     $('#ghari').html('Minggu');
     $('#gtanggal').html('7 Juli 2019');
