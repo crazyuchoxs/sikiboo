@@ -69,7 +69,7 @@ $('.nav-link').click(function () {
 
 window.onload = function () {
     $('#ghari').html('Minggu');
-    $('#gtanggal').html('7 Juli 2019');
+    $('#gtanggal').html('14 Juli 2019');
     $('#gjam').html('16:00 ~ Selesai');
     $('#gtempat').html('Alun - Alun Kapuas (Korem)');
     var uname = Cookies.get("username");
