@@ -1,0 +1,220 @@
+:root {
+    --color-font: #e2622f;
+    --color-font2: #ff8049;
+    --color-font3: #ff8753;
+    --color-bg: #f2dcd2de;
+    --color-blue: #421ec2de;
+}
+
+::selection {
+    background: var(--color-font2);
+    color: #fff;
+}
+
+* {
+    color: var(--color-font);
+}
+
+.bg-oranye {
+    background: rgba(255, 114, 53, 0.1);
+    color: #421ec2de;
+}
+
+a {
+    color: var(--color-font2) !important;
+}
+
+a:hover {
+    color: var(--color-font) !important;
+}
+
+.navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.snslide {
+    margin-top: 65px;
+    max-height: 570px;
+    overflow: hidden;
+    position: relative;
+}
+
+.snslide img {
+    width: 100%;
+}
+
+.snslide span {
+    font-family: "Mr Dafoe";
+    font-size: 5em;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, 0) rotatez(-10deg);
+    width: 550px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .15);
+    transition: 1s;
+}
+
+.caption {
+    font-family: "Montserrat";
+    font-size: 18pt;
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    margin: 0 auto;
+    display: grid;
+    max-width: 800px;
+}
+
+.caption button {
+    border: none;
+    background-color: var(--color-font2);
+    height: 70px;
+    color: #fff;
+    padding: 5px 25px 5px 25px;
+    margin: 70px auto 0px auto;
+    text-transform: uppercase;
+    font-weight: bolder;
+    position: relative;
+    transition: .3s;
+
+}
+
+.caption button::before {
+    content: " ";
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background: var(--color-font2);
+    transition: .3s;
+    transition-delay: .3s;
+}
+
+.caption button::after {
+    content: " ";
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background: var(--color-font2);
+    transition: .3s;
+    transition-delay: .3s;
+}
+
+.caption button:hover {
+    background: #fff;
+    color: var(--color-font2);
+}
+
+.caption button:hover::before,
+.caption button:hover::after {
+    width: 100%;
+}
+
+.caption :nth-child(3) {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-family: "Mr Dafoe";
+    text-align: center;
+    font-size: 2em;
+}
+
+.sproduct .container {
+    padding: 70px 0px 70px 0px;
+    text-align: center;
+}
+
+.isiproduct span,
+.sproduct span {
+    color: var(--color-blue);
+    font-size: 2em;
+    font-family: "Pacifico";
+    display: block;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.sproduct img {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    border-radius: 50%;
+    border: 5px solid var(--color-font);
+    margin: 0px 20px 0px 20px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.sproduct span::before {
+    content: ".:";
+}
+
+.sproduct span::after {
+    content: ":.";
+}
+
+
+.isiproduct .container {
+    padding: 70px 0px 70px 0px;
+    font-size: 19px;
+    position: relative;
+}
+
+.isiproduct .container::after {
+    content: " ";
+    bottom: 0px;
+    right: 0px;
+    position: relative;
+    height: 770px;
+    display: block;
+}
+
+.isiproduct .container .bchusion,
+.isiproduct .container .fmist,
+.isiproduct .container .lmate {
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transform: perspective(2000px) rotateY(180deg);
+    transition: 1s;
+    position: absolute;
+}
+
+.isiproduct .container>div>div:nth-child(2),
+.isiproduct .container>div>div:nth-child(3) {
+    margin: auto;
+    overflow: auto;
+    height: 600px;
+}
+
+.aktifp {
+    transform: perspective(2000px) rotateY(0deg) !important;
+}
+
+
+
+@media (max-width : 414px) {
+    .snslide span {
+        font-size: 2em;
+        width: 350px;
+        left: 50%;
+        transform: translate(-30%, 20%) rotatez(-10deg);
+        transition: .3s;
+    }
+
+    .sproduct img {
+        width: 90px;
+        height: 90px;
+        margin: 0px 10px 0px 10px;
+        border: 2px solid var(--color-font);
+    }
+}
