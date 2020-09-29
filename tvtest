@@ -1,8 +1,8 @@
 #EXTM3U
 #EXTINF:0, group-title="LOKAL",MKCTV
 https://defjwd5stvrhj.cloudfront.net/out/v1/54a201076b1e46ee83027a72ef637252/index_2.m3u8
-#EXTINF:0, group-title="LOKAL",RCTI
-blob:https://embed.rctiplus.com/96c1bc2e-a0db-4c0d-b104-4e9d919a668a
+#EXTINF:0, group-title="LOKAL",RCTI2
+http://202.80.222.171/000001/2/ch14041511532707866226/index.m3u8?virtualDomain=000001.live_hls.zte.com
 #EXTINF:0, group-title="LOKAL",MNC
 http://202.80.222.182/000001/2/ch14041511111714365733/index.m3u8?virtualDomain=000001.live_hls.zte.com
 #EXTINF:0, group-title="LOKAL",GLOBAL TV
