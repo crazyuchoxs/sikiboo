@@ -1,5 +1,7 @@
 #EXTM3U
 #EXTINF:0, group-title="LOKAL",RCTI
 http://chostv.mobie.in/files/iptv/rcti.m3u8
+#EXTINF:0, group-title="LOKAL",RCTI2
+https://www.rctiplus.com/1163e445-fd72-48ef-9a66-f1b4ed1ea003
 #EXTINF:0, group-title="LOKAL",GTV
 http://chostv.mobie.in/files/iptv/gtv.m3u8
