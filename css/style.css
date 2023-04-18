@@ -3,7 +3,7 @@ body {
     color: #fff;
 }
 .transisi {
-    transition: 1s;
+    transition: .3s ease-in-out;
 }
 
 .container {
@@ -56,8 +56,8 @@ body {
     overflow: hidden;
     margin: 10px;
 }
-.grup-aksi:hover {
-    box-shadow: 1px 1px 3px #000;
+.grup-aksi~input:focus{
+    box-shadow: 1px 1px 5px #0005;
 }
 .grup-aksi label {
     border-right: 1px solid #fff2;
