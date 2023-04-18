@@ -45,8 +45,8 @@ body {
     display: inline-flex;
     min-width: 200px;
     height: 100px;
-    background-color: red;
     margin-bottom: 50px;
+    border: 2px solid #242;
 }
 .grup-aksi {
     display: inline-flex;
@@ -68,7 +68,7 @@ body {
 }
 .grup-aksi input {
     border: none;
-    background: red;
+    background: #fff0;
     color: #fff;
     padding: 0px 5px;
 }
