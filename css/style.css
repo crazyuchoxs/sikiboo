@@ -56,7 +56,7 @@ body {
     overflow: hidden;
     margin: 10px;
 }
-.grup-aksi~input:focus{
+.grup-aksi:hover{
     box-shadow: 1px 1px 5px #0005;
 }
 .grup-aksi label {
